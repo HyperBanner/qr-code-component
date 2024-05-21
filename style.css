@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+
 *,
 *::before,
 *::after {
@@ -15,6 +17,7 @@ body {
   display: flex;
   flex-direction: column;
   background-color: #d5e1ef;
+  font-family: "Outfit", sans-serif;
 }
 
 .attribution {
@@ -24,4 +27,39 @@ body {
 
 .attribution a {
   color: hsl(228, 45%, 44%);
+  text-decoration: none;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  align-items: center;
+  background-color: white;
+  max-width: 320px;
+  padding: 16px;
+  border-radius: 12px;
+}
+
+img {
+  border-radius: 8px;
+}
+
+h1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 28px;
+  text-align: center;
+  color: #1f314f;
+}
+
+p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.1875px;
+  color: #7d889e;
 }
