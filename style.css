@@ -39,6 +39,7 @@ body {
   max-width: 320px;
   padding: 16px;
   border-radius: 12px;
+  gap: 8px;
 }
 
 img {
@@ -62,4 +63,6 @@ p {
   text-align: center;
   letter-spacing: 0.1875px;
   color: #7d889e;
+  max-width: 240px;
+  margin-bottom: 16px;
 }
