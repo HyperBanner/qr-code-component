@@ -16,7 +16,7 @@ body {
   height: 100vh;
   display: flex;
   flex-direction: column;
-  background-color: #d5e1ef;
+  background-color: hsl(212, 45%, 89%);
   font-family: "Outfit", sans-serif;
 }
 
@@ -35,7 +35,7 @@ body {
   flex-direction: column;
   margin: auto;
   align-items: center;
-  background-color: white;
+  background-color: hsl(0, 0%, 100%);
   max-width: 320px;
   padding: 16px;
   border-radius: 12px;
@@ -52,7 +52,7 @@ h1 {
   font-size: 22px;
   line-height: 28px;
   text-align: center;
-  color: #1f314f;
+  color: hsl(218, 44%, 22%);
 }
 
 p {
@@ -62,7 +62,7 @@ p {
   line-height: 19px;
   text-align: center;
   letter-spacing: 0.1875px;
-  color: #7d889e;
+  color: hsl(220, 15%, 55%);
   max-width: 240px;
   margin-bottom: 16px;
 }
